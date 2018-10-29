@@ -8,11 +8,11 @@ from googletrans import Translator
 import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
 listApp = [
-	"CHROMEOS\t2.1.5\tAditmadzs\t11.2.5", 
-	"DESKTOPWIN\t5.9.2\tAditmadzs\t11.2.5", 
-	"DESKTOPMAC\t5.9.2\tAditmadzs\t11.2.5", 
-	"IOSIPAD\t8.12.2\tAditmadzs\t11.2.5", 
-	"WIN10\t5.5.5\tAditmadzs\t11.2.5"
+	"CHROMEOS\t2.1.5\tkhaled-shmr\t11.2.5", 
+	"DESKTOPWIN\t5.9.2\tkhaled-shmr\t11.2.5", 
+	"DESKTOPMAC\t5.9.2\tAditmadzskhaled-shmr\t11.2.5", 
+	"IOSIPAD\t8.12.2\tkhaled-shmr\t11.2.5", 
+	"WIN10\t5.5.5\tAditmadzskhaled-shmr\t11.2.5"
 ]
 try:
 	for app in listApp:
@@ -129,7 +129,7 @@ def menuHelp():
 	else:
 		key = ''
 	menuHelp =	"╭━━━━━━━━━━━━━━━━━━━━━" + "\n" + \
-                "┃🇮🇩┃🇮🇩🇮🇩〔 Aditmadzs 〕🇮🇩🇮🇩" + "\n" + \
+                "┃🇮🇩┃🇮🇩🇮🇩〔 khaled-shmr 〕🇮🇩🇮🇩" + "\n" + \
                 "┃🇮🇩┃" + "\n" + \
                 "┃🍁┃━━🍁〔 Help Message 〕🍁━━" + "\n" + \
                 "┃🍁┃━━━━━🍁〔 Menu 〕🍁━━━━━━" + "\n" + \
